@@ -1,7 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { ClockCircleFilled, ClockCircleTwoTone, CommentOutlined, HddTwoTone, MailOutlined, MailTwoTone, MessageTwoTone, MobileOutlined, MobileTwoTone, UserOutlined } from '@ant-design/icons';
-import Person2TwoToneIcon from '@mui/icons-material/Person2TwoTone';
-import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
 import 'leaflet/dist/leaflet.css';
 import './inputForm.css'
 
