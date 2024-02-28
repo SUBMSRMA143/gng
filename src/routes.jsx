@@ -3,6 +3,7 @@ import App from "./App";
 import Errorfile from "./components/ErrorFile/Errorfile";
 import AboutUs from "./components/AboutUs/AboutUs";
 import ContactUs from "./components/ContactUs/ContactUs";
+import OurProjects from "./components/OurProjects/OurProjects";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -10,15 +11,20 @@ const router = createBrowserRouter([
     errorElement: <Errorfile />,
   },
 
-  // {
-  //   path : "/AboutUs",
-  //   element : <AboutUs/>
-  // },
+  {
+    path: "/AboutUs",
+    element: <AboutUs />
+  },
 
-  // {
-  //   path:"/contactUs", 
-  //   element:<ContactUs/>
-  // }
+  {
+    path: "/contactUs",
+    element: <ContactUs />
+  }, 
+
+  {
+    path: "/OurProjects",
+    element: <OurProjects />
+  }
 
 ]);
 

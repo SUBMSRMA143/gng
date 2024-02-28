@@ -53,18 +53,22 @@ const InputForm = () => {
                                 {/* <MobileOutlined /> */}
                                 <ClockCircleTwoTone />
                             </div>
-                            <input placeholder='Date' className='input' />
+                            <input type="date" className='input' />
                         </div>
 
                         <div className='if-input-form-container'>
                             <div className='if-input-form-abs'>
-
-                                {/* <ClockCircleFilled /> */}
-                                {/* <ClockCircleTwoTone /> */}
-                                {/* <AppstoreOutlined /> */}
                                 <HddTwoTone />
                             </div>
-                            <input placeholder='Interested in' className='input' />
+                            <select name="drinks" required className='input'>
+                                <option value="" disabled selected>Interested In</option>
+                                <optgroup label="Commercial">
+                                    <option value="GNG Mall">GNG mall</option>
+                                </optgroup>
+                                <optgroup label="Residencial">
+                                    <option value="mercedes">Gng Residence</option>
+                                </optgroup>
+                            </select>
                         </div>
                     </div>
 
@@ -85,7 +89,7 @@ const InputForm = () => {
             </div>
             <MapContainer
                 className="markercluster-map"
-                center={[29.300723, 76.321906]}
+                center={[30.726898, 76.652441]}
                 zoom={14}
                 maxZoom={17}
             >
@@ -95,7 +99,7 @@ const InputForm = () => {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
 
-                <Marker position={[29.300723, 76.321906]}>
+                <Marker position={[30.726898, 76.652441]}>
                     <Popup>
                         A pretty CSS3 popup. <br /> Easily customizable.
                     </Popup>

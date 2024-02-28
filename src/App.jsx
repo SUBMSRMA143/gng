@@ -8,6 +8,7 @@ import OurProjects from './components/OurProjects/OurProjects';
 import InputForm from './components/ContactUs/inputform/InputForm';
 import Features from './components/Features/Features';
 import { ScrollRestoration } from "react-router-dom";
+import ShowCase from './components/OurProjects/showcase/ShowCase';
 
 export default function App() {
   return (
@@ -21,7 +22,7 @@ export default function App() {
         <Crausal />
       </div>
       <Brief/>
-      <OurProjects/>
+      <ShowCase/>
       <Features/>
       <Vision/>
       <InputForm/>

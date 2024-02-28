@@ -1,6 +1,6 @@
 .contactUS-landing-section {
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     color: white;
     background-color: rgb(232, 232, 232);
@@ -11,7 +11,7 @@
     background-attachment: fixed;
     background-position: bottom right;
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(46, 45, 48, 0) 50%, rgba(4, 3, 8, 1) 100%), url("../../../assets/contactusHero.png");
     background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@
 @media screen and (max-width: 600px) {
 
     .contactUS-landing-section {
-        height: 95vh;
+        height: 85vh;
         width: 100%;
     }
 
