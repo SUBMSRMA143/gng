@@ -26,7 +26,7 @@
 .op-card>img {
     width: 100%;
     max-height: 300px;
-    min-height: 300px;
+    height: 100%;
 }
 
 .op-card>button {
