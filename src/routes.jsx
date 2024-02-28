@@ -7,18 +7,18 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <Errorfile/>,
+    errorElement: <Errorfile />,
   },
 
-  {
-    path : "/AboutUs",
-    element : <AboutUs/>
-  },
+  // {
+  //   path : "/AboutUs",
+  //   element : <AboutUs/>
+  // },
 
-  {
-    path:"/contactUs", 
-    element:<ContactUs/>
-  }
+  // {
+  //   path:"/contactUs", 
+  //   element:<ContactUs/>
+  // }
 
 ]);
 
